@@ -50,7 +50,7 @@ for test_string in ['555-1212', 'ILL-EGAL']:
         print (test_string, 'rejected')
 
 import re
-for cpf_check in ['009.967.439-44', '1234']:
+for cpf_check in ['000.111.222-44', '1234']:
     if re.match(r'^\d{3}.\d{3}.\d{3}-\d{2}$', cpf_check):
         print (cpf_check, 'Número de CPF válido.')
     else:

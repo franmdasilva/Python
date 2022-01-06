@@ -521,9 +521,9 @@ print(docstring.__doc__)
 # trabalhando com dicionários
 
 num_tel={}
-num_tel["Franciele"]=988071935
-num_tel["Luis"]=999645992
-num_tel["Albertina"]=988090343
+num_tel["Franciele"]=988775544
+num_tel["Luis"]=999887766
+num_tel["Albertina"]=988112233
 
 print(num_tel)
 
@@ -569,7 +569,7 @@ for nome,valor in precos.items():
 
 # usando list comprehension para iterar sobre dicionário
 
-dados={"nome":"Fran","idade":32,"país":"Brasil"}
+dados={"nome":"Fran","idade":99,"país":"Brasil"}
 
 print([f"{i}:{j}" for i,j in dados.items()])
 
