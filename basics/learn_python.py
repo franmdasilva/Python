@@ -684,4 +684,3 @@ for item in dir(time):
         ache_itens.append(item)
 
 print(sorted(ache_itens)) # sorted para ordem alfabética    
-

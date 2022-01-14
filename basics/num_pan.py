@@ -85,8 +85,12 @@ print(s_amer.loc["BR","populacao"],"\n",s_amer.loc[["BR","CL"]])
 print(s_amer.iloc[0,3],"\n",s_amer.iloc[[0,3]])
 
 # .iloc mesmo que .loc mas com indices numéricos
-# importando .csv no pandas
 
+# Vamos importar o conjunto de dados Iris, que contém informações sobre flores, e que já vem com a biblioteca seaborn
+#import seaborn
+#iris=seaborn.load_dataset("iris",cache=True,data_home='/local_para_armazenar_os_dados')
+
+# importando .csv no pandas
 csv_file="iris.csv"
 
 df=pd.read_csv(csv_file)
