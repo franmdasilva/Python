@@ -1,3 +1,5 @@
+#Alguns programas simples seguindo o conteúdo da página https://wiki.python.org/moin/SimplePrograms
+
 print ('Hello, world!') 
 
 print ('Olá, mundo!')
@@ -81,7 +83,6 @@ try:
 except ValueError:
     print ('Please supply integer arguments')
 
-import sys 
 try:
     soma = sum(int(arg) for arg in sys.argv[1:])
     print ('Soma =', soma)
@@ -101,7 +102,6 @@ for file_name in sorted(python_files):
 
     print()
 
-import glob
 arquivosdat = glob.glob('teste.dat')
 for dat_nome in sorted(arquivosdat):
     print ('    ~~~~' + dat_nome)
